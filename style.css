@@ -26,16 +26,18 @@ ul {
 
 .recipe-list {
     color: rgba(200, 0, 0, 0.5);
+    list-style: none;
+    margin-left: -48px;
+    margin-top: -10px;
 }
 
 li {
-    padding-left: 16px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding: 2px
 }
 
 .recipe-list-item {
     padding: 6px;
+    margin-top: 8px;
 }
 
 .recipe-link {
@@ -58,6 +60,7 @@ li {
 
 .recipe-link:hover {
     background-color: rgba(200, 0, 0, 0.6);
+    color: rgb(255, 255, 235);
 }
 
 .recipe-link:active {
@@ -66,4 +69,17 @@ li {
 
 .recipe-image {
     height: 350px;
+}
+
+.homepage-box {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.text-body {
+    box-sizing: border-box;
+    border: 1px dashed rgba(200, 0, 0, 0.5);
+    padding: 15px;
+    padding-bottom: 25px;
+    
 }
